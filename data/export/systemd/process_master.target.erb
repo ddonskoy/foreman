@@ -1,5 +1,6 @@
 [Unit]
-StopWhenUnneeded=true
+StopWhenUnneeded=false
 
 [Install]
 WantedBy=<%= app %>.target
+WantedBy=multi-user.target
